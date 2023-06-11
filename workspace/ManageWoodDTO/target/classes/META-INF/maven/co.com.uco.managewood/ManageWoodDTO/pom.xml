@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.com.uco.managewood</groupId>
+  <artifactId>ManageWoodDTO</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ManageWoodDTO</name>
+  <description>Componente que ofrece los objetos de transferencia de datos para poder intercambiar informacion entre el componente de API y el componente Service.</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>20</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+	  <dependency>
+			<groupId>co.com.uco.managewood</groupId>
+  			<artifactId>ManageWoodCrossCutting</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+  </dependencies>
+</project>
