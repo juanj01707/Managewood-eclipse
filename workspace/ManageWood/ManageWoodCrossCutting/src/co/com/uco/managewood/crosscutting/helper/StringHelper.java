@@ -31,4 +31,10 @@ public class StringHelper {
     public static final boolean isOnlyWordsAndSpace(String value) {
         return value.matches("[a-zA-Z ]+");
     }
+    public static final boolean isOnlyNumbers(String value) {
+        return value.matches("[0-9]");
+    }
+    public static final boolean isOnlyWordsAndSpaceAndNumbers(String value) {
+        return value.matches("[a-zA-Z ]+[0-9]");
+    }
 }

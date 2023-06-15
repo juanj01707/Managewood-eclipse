@@ -20,4 +20,24 @@ public class DepartamentoEntity {
     private PaisEntity pais;
     @Column(name = "nombre") // Se puede obviar si es lo mismo como esta el atributo y el tipo de variable
     private String nombre;
+	public UUID getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(UUID codigo) {
+		this.codigo = codigo;
+	}
+	public PaisEntity getPais() {
+		return pais;
+	}
+	public void setPais(PaisEntity pais) {
+		this.pais = pais;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+    
+    
 }

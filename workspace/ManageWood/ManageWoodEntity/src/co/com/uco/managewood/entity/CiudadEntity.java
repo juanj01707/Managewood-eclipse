@@ -22,5 +22,29 @@ public class CiudadEntity {
     private DepartamentoEntity departamento;
     // @Column(name = "nombre") // Se puede obviar si es lo mismo como esta el atributo y el tipo de variable
     private String nombre;
+	public UUID getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(UUID codigo) {
+		this.codigo = codigo;
+	}
+	public DepartamentoEntity getDepartamento() {
+		return departamento;
+	}
+	public void setDepartamento(DepartamentoEntity departamento) {
+		this.departamento = departamento;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+    
+    
+    
+    
 
 }
+
+
