@@ -1,1 +1,13 @@
-
+spring:
+  cloud:
+    azure:
+      keyvault:
+        secret:
+          property-source-enabled: true
+          property-sources[0]:
+            credential:
+              client-secret: yHV8Q~mAPTe9z9LkPqGSLUYsb~t_JV9NIfeXwcAi
+              client-id: cfc379c7-9a37-4fde-be48-9da7c10f6ca6
+            profile:
+              tenant-id: 58a49b59-b326-4786-9c92-00986780f561
+            endpoint: https://managewood.vault.azure.net/
